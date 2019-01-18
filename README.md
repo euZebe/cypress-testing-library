@@ -62,6 +62,17 @@ should be installed as one of your project's `devDependencies`:
 ```
 npm install --save-dev cypress-testing-library
 ```
+### With typescript
+
+Typings are defined under `cypress-testing-library/typings`, and should be added as follows in `tsconfig.json`:
+```json
+{
+  "compilerOptions": {
+    "types": ["cypress", "../cypress-testing-library/typings"]
+  }
+}
+
+```
 
 ## Usage
 
